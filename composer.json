@@ -49,14 +49,13 @@
         "laravel": {
             "providers": [
                 "\\InfyOm\\Generator\\InfyOmGeneratorServiceProvider",
-                "\\InfyOm\\AdminLTETemplates\\AdminLTETemplatesServiceProvider",
-                "Collective\\Html\\HtmlServiceProvider",
-                "Laracasts\\Flash\\FlashServiceProvider",
-               "Prettus\\Repository\\Providers\\RepositoryServiceProvider"
+                //"Collective\\Html\\HtmlServiceProvider",
+                //"Laracasts\\Flash\\FlashServiceProvider",
+               //"Prettus\\Repository\\Providers\\RepositoryServiceProvider"
             ],
             "aliases": {
-                "Form": "Collective\\Html\\FormFacade",
-                "Html": "Collective\\Html\\HtmlFacade",
+                //"Form": "Collective\\Html\\FormFacade",
+               // "Html": "Collective\\Html\\HtmlFacade",
                 "Flash": "Laracasts\\Flash\\Flash"
             }
         }
